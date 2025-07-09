@@ -3,7 +3,7 @@ from astropy.time import Time
 from astropy.timeseries import TimeSeries, LombScargle
 from astropy import units as u
 
-lc_data_folder = 'Practices/Practice_3/LC_Files'
+lc_data_folder = 'Practices/Practice_3/lc_files'
 
 def get_lc_data(filename):
     """
@@ -118,7 +118,7 @@ def plot_raw_lc(filename, lc_data, threshold=3):
     - Outliers are identified per date using the `identify_outliers` function with a default
       threshold of 3 sigma.
     - The plot legend is arranged in multiple columns below the plot to avoid overlapping data.
-    - The output plot is saved as a PDF in the `Practices/Practice_3/Plots/` directory.
+    - The output plot is saved as a PDF in the `Practices/Practice_3/plots/` directory.
     """
     #plt.rc('xtick', labelsize='x-small')
     #plt.rc('ytick', labelsize='x-small')
@@ -149,7 +149,7 @@ def plot_raw_lc(filename, lc_data, threshold=3):
     plt.legend(fontsize='small', ncol=n_cols, loc='upper center',
                bbox_to_anchor=(0.5, -0.1), fancybox=True, shadow=True)
     plt.tight_layout()
-    plt.savefig(f'Practices/Practice_3/Plots/{filename}_raw.pdf',
+    plt.savefig(f'Practices/Practice_3/plots/{filename}_raw.pdf',
                 format='pdf')
     plt.close()
 
@@ -239,7 +239,7 @@ def fold_lc(filename, lc_data, threshold=3, min_period=0.1, max_period=10):
     ax2.set_ylabel('Lomb-Scargle Power')
     ax2.set_title('Lomb-Scargle Periodogram')
     plt.tight_layout()
-    plt.savefig(f'Practices/Practice_3/Plots/{filename}_folded.pdf',
+    plt.savefig(f'Practices/Practice_3/plots/{filename}_folded.pdf',
                 format='pdf')
     plt.close()
 
