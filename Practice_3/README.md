@@ -69,7 +69,11 @@ The process involves:
     * Annotations providing the estimated initial `BJD_0`, the best period, and the estimated amplitude.
 * The plots are saved as PDF files in the `/plots/` directory.
 
-### Important Considerations from Practice 3 Solution
+## Code Documentation
+
+The `practice_3.py` script adheres to good coding practices by incorporating **docstrings** for all its functions. These docstrings provide clear, concise, and comprehensive explanations of each function's purpose, expected arguments (Parameters), return values (Returns), and any potential errors it might raise (Raises). This internal documentation makes the code easier to understand, maintain, and reuse.
+
+## Important Considerations from Practice 3 Solution
 
 As noted in the original solution for Practice 3, not all light curves fold perfectly. The periodograms often exhibit spurious peaks due to various factors, including:
 * Dropping of `NaN` values from the data.
