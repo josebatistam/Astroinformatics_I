@@ -1,0 +1,60 @@
+├── Practice_1/
+│├── codes/
+││├── list_csv_files.sh
+││├── rename_csv_files.sh
+││├── split_csv_list.sh
+││└── tesscurl_sector_73_lc.sh
+│├── csv/
+││└── tess..._lc.csv files (20 files)
+│├── fits/
+││└── tess..._lc.fits files (20 files)
+│├── latex/
+││├── Practice_1.aux, .log, .out, etc.
+││└── Practice_1.tex
+│├── lightcurves/
+││└── tess..._lc.pdf files (20 files)
+│├── lists/
+││├── csv_files.txt
+││└── list_1.txt to list_5.txt (5 files)
+│├── Practice_1_Instructions.pdf
+│└── Practice_1.pdf
+│
+├── Practice_2/
+│├── codes/
+││├── task_1.sh
+││├── task_2.py
+││└── task_3.py
+│├── latex/
+││├── Practice_2.aux, .log, .out, etc.
+││└── Practice_2.tex
+│├── lc/
+││└── tess..._lc.lc files (20 files)
+│├── Practice_2_Instructions.pdf
+│└── Practice_2.pdf
+│
+├── Practice_3/
+│├── code/
+││├── practice_3.py
+││└── requirements.txt
+│├── latex/
+││├── Practice_3.aux, .log, .out, etc.
+││└── Practice_3.tex
+│├── lc_files/
+││└── tess..._lc.lc files (20 files)
+│├── plots/
+││├── tess...-s.lc_folded.pdf (20 files)
+││└── tess...-s.lc_raw.pdf (20 files)
+│├── Practice_3_Instructions.pdf
+│└── Practice_3.pdf
+│
+├── Practice_4/
+│├── code/
+││├── practice_4.py # not created yet, possibly for the test cases (problem 3)
+││└── requirements.txt
+│├── latex/
+││├── Practice_4.aux, .log, .out, etc.
+││└── Practice_4.tex
+│├── Practice_4_Instructions.pdf
+│└── Practice_4.pdf
+│
+└── README.md    # Main repository README (overview, purpose, structure)
