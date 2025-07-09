@@ -14,6 +14,7 @@ The repository's layout is designed for clarity and maintainability:
     * Specific directories like `/csv/`, `/fits/`, `/lc/`, `/lightcurves/`, `/lists/`, and `/plots/`: These are used for input data (such as `.csv` or `.fits` files), processed light curve files (`.lc`), generated plots (`.pdf`), or intermediate lists, depending on the requirements of each particular practice.
     * `Practice_X_Instructions.pdf`: The original problem statement or instructions for the specific practice.
     * `Practice_X.pdf`: The compiled PDF solution for the practice.
+* A **`/Project/`** directory is dedicated to the final project presentation, which synthesizes the work from the four graded practices.  
 
 ## Practices
 
@@ -23,6 +24,15 @@ Below is a list of the practices included in this repository. Click on the links
 * [**Practice 2**](Practice_2)
 * [**Practice 3**](Practice_3)
 * [**Practice 4**](Practice_4)
+
+## Project
+
+The [Project](Project) directory in this repository is dedicated to the final project presentation for the Astroinformatics I course. This project encapsulates the knowledge and work developed throughout the four graded practices.
+
+Within this folder, you will find:
+* The main LaTeX file for the project presentation (e.g., `Project.tex`).
+* Any auxiliary files generated during the LaTeX compilation (e.g., `.aux`, `.log`, `.pdf` output).
+* Any figures or supplementary materials specifically created for the final presentation.
 
 ## Important Notes
 
