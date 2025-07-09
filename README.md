@@ -1,4 +1,4 @@
-# Astroinformatics_I - Graded Practices
+# Astroinformatics I - Graded Practices
 
 This repository serves as a centralized collection point for all graded practices submitted as part of the Astroinformatics I course (Semester 1, 2025) at Universidad de Antofagasta. It aims to maintain a well-organized and version-controlled record of all assignments.
 
