@@ -4,7 +4,7 @@ This document outlines the methodology and Python script (`practice_3.py`) used 
 
 ## Script Overview (`practice_3.py`)
 
-The `practice_3.py` script is designed to automate the analysis of multiple TESS light curve files. It iterates through `.lc` files located in the `Practice_3/lc_files/` directory, processes each one, and generates two types of plots (raw light curve and phase-folded light curve with periodogram) saved as PDF files in `Practice_3/plots/`.
+The `practice_3.py` script is designed to automate the analysis of multiple TESS light curve files. It iterates through `.lc` files located in the `/lc_files/` directory, processes each one, and generates two types of plots (raw light curve and phase-folded light curve with periodogram) saved as PDF files in `/plots/`.
 
 The script utilizes several key functions:
 
@@ -52,7 +52,7 @@ To enhance readability and accessibility:
 * A legend is included to distinguish the dates, placed in multiple columns below the plot to avoid overlapping data.
 * Axis labels (`BJD Epoch`, `PDCSAP Flux (e-/s)`) and a title (`Raw Light Curve of [filename]`) are provided for clarity.
 * Outliers identified by `identify_outliers` are highlighted with a distinct black 'x' marker.
-* The plots are saved as PDF files in the `Practice_3/plots/` directory.
+* The plots are saved as PDF files in the `/plots/` directory.
 
 ### 4. Phase-Folding and Periodogram Analysis (`fold_lc`)
 
