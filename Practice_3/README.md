@@ -1,4 +1,4 @@
-# TESS Light Curve Processing Documentation (from Practice 3)
+# TESS Light Curve Processing Documentation
 
 This document outlines the methodology and Python script (`practice_3.py`) used to process TESS light curve files for Practice 3. The script performs data loading, preprocessing, outlier identification, plotting of raw light curves, and analysis including phase-folding and Lomb-Scargle periodogram computation.
 
