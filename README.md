@@ -19,14 +19,14 @@ The repository's layout is designed for clarity and maintainability:
 
 Below is a list of the practices included in this repository. Click on the links to navigate to the respective practice folders.
 
-* **Practice 1:** [https://github.com/josebatistam/Astroinformatics_I/tree/main/Practice_1]
-* **Practice 2:** [https://github.com/josebatistam/Astroinformatics_I/tree/main/Practice_2]
-* **Practice 3:** [https://github.com/josebatistam/Astroinformatics_I/tree/main/Practice_3]
-* **Practice 4:** [https://github.com/josebatistam/Astroinformatics_I/tree/main/Practice_4]
+* [**Practice 1**](Practice_1)
+* [**Practice 2**](Practice_2)
+* [**Practice 3**](Practice_3)
+* [**Practice 4**](Practice_4)
 
 ## Important Notes
 
-Please be aware that the local course directory was restructured during the development of these practices for improved navigation and file access. As a result, all the scripts (`.sh` and `.py`) and LaTeX files located in the `/Practice_X/` subdirectory have been updated to reflect these changes to prevent compilation errors. However, for transparency, any code presented directly within the LaTeX files in the submitted solutions has **not** been updated to reflect the modified scripts. This preserves the original practice solutions as they were initially developed and submitted.
+Please be aware that the local course directory was restructured during the development of these practices for improved navigation and file access. As a result, all the scripts (`.sh` and `.py`) and LaTeX files located in the `/Practice_X/` subdirectories have been updated to reflect these changes to prevent compilation errors. However, for transparency, any code presented directly within the LaTeX files in the submitted solutions has **not** been updated to reflect the modified scripts. This preserves the original practice solutions as they were initially developed and submitted.
 
 ## Course Information
 
