@@ -28,4 +28,4 @@ while read line; do
     fi
 done < "$filenames_list"
 
-echo "csv_files.txt has been split into ${file_number} files."
+echo "csv_files.txt has been split into $((file_number - 1)) files."
